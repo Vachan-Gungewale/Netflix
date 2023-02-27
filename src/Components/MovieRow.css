@@ -1,0 +1,41 @@
+.row_poster {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-left: 15px;
+}
+
+.row_image {
+    object-fit: contain;
+    width: 100%;
+    max-width: 120px;
+    transition: transform 500ms;
+    padding: 10px;
+}
+.row_image:hover {
+    transform: scale(1.2);
+}
+
+.row_poster::-webkit-scrollbar {
+    display: none;
+}
+.row h3 {
+    margin-left: 10px;
+}
+
+.row_post {
+    max-width: 200px;
+}
+.row_post:hover {
+    transform: scale(1.09);
+}
+
+.youtube {
+    position: fixed;
+    top: 0px;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    z-index: 3;
+}

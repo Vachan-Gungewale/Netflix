@@ -1,0 +1,31 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    z-index: 2;
+   
+
+}
+
+.nav_logo {
+    width: 100px;
+    object-fit: contain;
+}
+
+.navbar .nav_avatar {
+    width: 30px;
+    object-fit: contain;
+    position: fixed;
+    right: 20px;
+    top: 30px;
+}
+
+.nav_scroll {
+    background-color: rgb(0, 0, 0);
+}
